@@ -1,44 +1,39 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Sandbox React Code
 
-### Author: Student/Group Name
+### Author: Jen Carrigan
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [sandbox] https://codesandbox.io/s/mo821yvxk9
 
 ### Modules
 
-#### `modulename.js`
+#### `Header.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `Header`
+Exports a header tag with an h1 tag with text.
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `Footer.js`
+##### Exported Values and Methods
 
+###### `Footer`
+Exports a footer tag with text.
+
+#### `App.js`
+##### Exported Values and Methods
+
+###### `Counter`
+incrementClick: Increments the counter property by 1
+decrementClick: Decrements the counter property by 1
+render: Creates markup for the links to increment, decrement, and see the resulting output
+
+###### `App`
+Exports a render of Header, Counter, and Footer.
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML] (https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/lab-26-UML.jpg)
