@@ -33,7 +33,5 @@ render: Creates markup for the links to increment, decrement, and see the result
 ###### `App`
 Exports a render of Header, Counter, and Footer.
 
-### Setup
-
 #### UML
 ![UML] (https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/lab-26-UML.jpg)
